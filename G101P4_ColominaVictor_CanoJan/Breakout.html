@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Breakout amb canvas</title>
+    <style>
+        #principal{
+            width: 960px;
+            margin: 0 auto;
+        }
+        #joc{
+            position:relative;
+            margin-top: 20px;
+        }
+        #game {
+
+            border: #666 50px solid;
+            border-bottom-width: 0;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body background="imatges/background-image.png
+">
+
+<div id="principal">
+    <div id="joc">
+        <canvas id="game"></canvas>
+    </div>
+</div>
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/Breakout.js" defer></script>
+</body>
+</html>
